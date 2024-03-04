@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full flex flex-wrap bg-gradient-to-b from-sky-50 to-sky-100	content-start skew-b-12">
+  <div class="w-full flex flex-wrap bg-gradient-to-b from-sky-50 to-sky-100	content-start">
     <header class="md:w-9/12 w-11/12 flex flex-wrap">
       <nav class="w-full flex flex-row items-center justify-center py-4">
         <div class="w-6/12 flex flex-col items-center justify-start px-4">
@@ -100,7 +100,7 @@
   </div>
   <div class="md:w-8/12 w-full flex md:flex-row flex-col items-center md:mt-12 mt-4 mx-auto">
     <div class="md:w-1/2 overflow-visible">
-      <img class="w-auto md:h-96 w-full" src="~/assets/images/launch.png" alt="">
+      <img class="w-auto md:h-96" src="~/assets/images/launch.png" alt="">
     </div>
     <div class="md:flex-1 flex flex-col items-start md:px-1 px-4">
       <h4 class="text-xs font-medium text-rose-500 py-1 px-4 bg-rose-100 rounded-full">For Product Teams</h4>
@@ -110,11 +110,11 @@
         Nihil architecto eligendi amet illum eius sequi?</p>
     </div>
   </div>
-  <div class="md:w-8/12 w-full flex md:flex-row flex-col items-center md:mt-12 mt-4 mx-auto">
-    <div class="md:w-1/3 flex flex-col items-start md:px-1 px-4">
+  <div class="md:w-8/12 w-full flex md:flex-row flex-col items-center md:mt-12 mt-4 mx-auto px-14">
+    <div class="md:w-1/3 flex flex-col items-start">
       <h4 class="text-xs py-1 px-3 rounded-full font-medium text-rose-500 bg-rose-100">For engineering teams</h4>
-      <h4 class="w-56 text-lg font-bold">Data-driven pipeline in minutes</h4>
-      <p class="text-xs font-medium text-gray-400">
+      <h4 class="w-56 text-lg font-bold mt-2">Data-driven pipeline in minutes</h4>
+      <p class="text-xs font-medium text-gray-400 mt-1">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi similique placeat reiciendis iure doloribus,
         nihil ea! Suscipit nam excepturi nulla est nihil aspernatur ipsa,
         odio officiis porro! Magnam, ut repudiandae.
@@ -124,4 +124,45 @@
       <img src="~/assets/images/launch.png" alt="">
     </div>
   </div>
+  <div class="w-full flex flex-col">
+    <div class="md:w-1/3 w-full mx-auto text-center md:mt-7 mt-3">
+      <p class="text-base text-gray-600 font-bold">"Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Harum magnam laborum facere et! Mollitia labore recusandae necessitatibus dolorum expedita accusamus."</p>
+      <div class="w-12 h-12 rounded-full flex items-center justify-center mx-auto border-solid border-2 bg-gray-200 mt-4 mb-4">
+        <img src="~/assets/images/person.png" alt="">
+      </div>
+      <h6 class="text-sm font-bold text-gray-600">Junior Richards</h6>
+      <h6 class="text-xs font-bold text-gray-500 mt-1">Developer</h6>
+    </div>
+    <div class="md:w-7/12 w-full mx-auto md:mt-6 mt-3">
+      <hr class="border-solid border border-indigo-300">
+    </div>
+    <div class="md:w-7/12 w-full flex flex-row justify-start items-center mx-auto gap-x-5 md:mt-12 mt-3">
+      <div class="flex-1 flex flex-row items-center">
+        <div class="md:w-16 h-auto mr-2">
+          <img src="~/assets/images/settings.png" alt="">
+        </div>
+         <h5 class="tex-lg font-extrabold">Company 1</h5>
+      </div>
+      <div class="flex-1 flex flex-row items-center">
+        <div class="md:w-16 h-auto mr-2">
+          <img src="~/assets/images/settings.png" alt="">
+        </div>
+         <h5 class="tex-lg font-extrabold">Company 2</h5>
+      </div>
+      <div class="flex-1 flex flex-row items-center">
+        <div class="md:w-16 h-auto mr-2">
+          <img src="~/assets/images/settings.png" alt="">
+        </div>
+         <h5 class="tex-lg font-extrabold">Company 3</h5>
+      </div>
+      <div class="flex-1 flex flex-row items-center">
+        <div class="md:w-16 h-auto mr-2">
+          <img src="~/assets/images/settings.png" alt="">
+        </div>
+         <h5 class="tex-lg font-extrabold">Company 4</h5>
+      </div>
+    </div>
+  </div>
+  
 </template>
